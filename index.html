@@ -354,6 +354,41 @@
 
     <hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+        <div class="row">
+          {% for _, item in data.projects.items() %}
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img src="img/spotifyr.png" class="card-img-top" alt="music-r-graphs">
+              <div class="card-body">
+                <h3 class="card-title">music-r-graphs</h3>
+                <h5 class="card-title">A graphical analysis of The Weeknd's music sentiment, valence, and lexicon analyses</h5>
+                <p class="card-text">A set of pirate plot and plotly graphs that uses the spotifyr package to connect to Spotify API and the rvest package to webscrape lyrics from Genius.</p>
+                <p>
+                  {% for tag in item.tags %}
+                  <span class="badge badge-pill badge-secondary">R, Plotly.js</span>
+                  {% endfor %}
+                </p>
+              </div>
+              <div class="card-footer">
+                {% if item.github != None %}
+                <a href="https://github.com/lyanita/music-spotifyr" class="text-dark" target="_blank">
+                  <i class="fab fa-github-square fa-2x"></i>
+                </a>
+                {% endif %}
+                <a href="https://github.com/lyanita/music-spotifyr" class="btn btn-dark float-right" target="_blank">View project</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="passions">
       <div class="w-100">
         <h2 class="mb-5">Passions</h2>
