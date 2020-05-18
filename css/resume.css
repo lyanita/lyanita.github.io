@@ -159,6 +159,11 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+section.gallery-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
 .bg-primary {
   background-color: #318ca3 !important;
 }
