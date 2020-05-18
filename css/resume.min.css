@@ -289,7 +289,7 @@ a:active,a:focus,a:hover {
 @media screen and (max-width: 600px) {
 /* Place the timelime to the left */
   .timeline::after {
-    left: 31px;
+    left: 50px;
   }
 
 /* Full-width containers */
@@ -304,7 +304,7 @@ a:active,a:focus,a:hover {
     left: 60px;
     border: #318ca3;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: #318ca3;
   }
 
 /* Make sure all circles are at the same spot */
