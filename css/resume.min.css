@@ -209,7 +209,7 @@ a:active,a:focus,a:hover {
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
+  margin-left: 0px;
 }
 
 /* Container around content */
@@ -274,7 +274,7 @@ a:active,a:focus,a:hover {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -15px;
 }
 
 /* The actual content */
