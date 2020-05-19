@@ -282,10 +282,20 @@ a:hover, a:focus, a:active {
 }
 
 #timeline h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 200;
-  margin-bottom: 20px;
+  font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 6rem;
+  line-height: 5.5rem
+}
+
+#timeline h2 {
+  font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 3.5rem;
 }
 
 #timeline p.leader {
@@ -458,7 +468,6 @@ a:hover, a:focus, a:active {
 
 #timeline .demo-card .body img {
   display: block;
-  width: 100%;
 }
 
 #timeline .demo-card--step1 {
