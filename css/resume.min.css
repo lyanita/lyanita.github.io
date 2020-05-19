@@ -418,14 +418,12 @@ a:active,a:focus,a:hover {
 #timeline .demo-card .head h2 span {
   display: block;
   font-size: 0.6rem;
-  padding: 5px;
   margin: 0;
 }
 
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 span {
     font-size: 0.8rem;
-    padding: 5px;
   }
 }
 
