@@ -272,6 +272,7 @@ a:active,a:focus,a:hover {
   text-transform: uppercase;
   color: #343a40;
   font-size: 3.5rem;
+  padding: 5px;
   margin-left: 50px;
 }
 
@@ -280,6 +281,7 @@ a:active,a:focus,a:hover {
   max-width: 90%;
   margin: auto;
   margin-bottom: 45px;
+  padding: 5px;
   margin-left: 50px;
 }
 
@@ -446,6 +448,8 @@ a:active,a:focus,a:hover {
 
 #timeline .demo-card .body img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #timeline .demo-card--step1 {
