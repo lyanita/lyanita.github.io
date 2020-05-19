@@ -500,3 +500,11 @@ a:hover, a:focus, a:active {
 #timeline .demo-card--step5 .head::after {
   border-color: #46b8e9;
 }
+
+#timeline .demo-card--step6 {
+  background-color: #3ee9d1;
+}
+
+#timeline .demo-card--step6 .head::after {
+  border-color: #3ee9d1;
+}
