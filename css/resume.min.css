@@ -272,6 +272,7 @@ a:active,a:focus,a:hover {
   text-transform: uppercase;
   color: #343a40;
   font-size: 3.5rem;
+  margin-left: 50px;
 }
 
 #timeline p.leader {
@@ -279,6 +280,7 @@ a:active,a:focus,a:hover {
   max-width: 90%;
   margin: auto;
   margin-bottom: 45px;
+  margin-left: 50px;
 }
 
 #timeline .demo-card-wrapper {
