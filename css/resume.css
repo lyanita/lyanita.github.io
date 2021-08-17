@@ -319,7 +319,7 @@ a:hover, a:focus, a:active {
     display: flex;
     flex-flow: column wrap;
     width: 1170px;
-    height: 2200px;
+    height: 2500px;
     margin: 0 auto;
   }
 }
